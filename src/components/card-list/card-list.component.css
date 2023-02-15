@@ -1,0 +1,20 @@
+.card-container{
+    box-sizing: border-box;
+    background-color: aqua;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+    width: 100%;
+    
+}
+.card-container:hover{
+    transform: translateY(-1%);
+}
+.CardList{
+    width: 130vh;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr ;
+    grid-gap: 20px
+  }
+  
+  
